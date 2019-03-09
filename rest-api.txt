@@ -1,0 +1,20 @@
+Installed Node.js
+This package has installed:
+	•	Node.js v10.15.2 to /usr/local/bin/node
+	•	npm v6.4.1 to /usr/local/bin/npm
+Make sure that /usr/local/bin is in your $PATH.
+
+Install expressjs.com
+
+MongoDB-c9
+killall mongod
+mongo --version 
+Now, in order to run mongod you'll first need to cd into root ~ then run ./mongod, waiting for connections on port 27017, means it's working
+open new terminal, mongo, show dbs, 
+ctrl_C to get out of mongo shell and ctrl_C to get out of Mongo daemon
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file
+
+npm install express body-parser mongoose --save
+
